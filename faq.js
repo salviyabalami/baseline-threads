@@ -12,7 +12,7 @@
 
 (function () {
   /** Base path for backend API endpoints. */
-  const BASE_URL = "/baseline";
+  const BASE_URL = "https://baseline-threads-backend.onrender.com/baseline";
 
   /**
    * Initializes the FAQ view after the DOM has loaded.
