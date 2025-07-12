@@ -12,7 +12,7 @@
 
 (function () {
   /** Base path for all backend API routes. */
-  const BASE_URL = "/baseline";
+  const BASE_URL = "https://baseline-threads-backend.onrender.com/baseline";
 
   /**
    * Initializes the Cart page after DOM content is loaded.
