@@ -1,0 +1,51 @@
+/*
+  Name: Salviya Balami
+  CS 132 Spring 2025
+  Date: June 14th, 2025
+
+  This is the FAQ-styles.css page for Baseline Threads. This handles all of the 
+  aesthetic styles for the FAQ view page that is displayed to the user.
+*/
+
+body {
+  font-family: "Nunito", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+main {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #222;
+}
+
+.faq-item {
+  background: #fff;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.faq-item h2,
+.faq-item p {
+  margin: 0;
+}
+
+.faq-item h2 {
+  font-size: 1.2rem;
+  color: #000;
+}
+
+.faq-item p {
+  font-size: 1rem;
+  margin-top: 10px;
+}

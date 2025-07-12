@@ -1,0 +1,55 @@
+/*
+  Name: Salviya Balami
+  CS 132 Spring 2025
+  Date: June 14th, 2025
+
+  This is the styles.css page for Baseline Threads. This handles all of the 
+  aesthetic styles for the cart view page that is displayed to the user.
+*/
+body {
+  background: radial-gradient(circle at center, #ffd8a8, #ff8c00);
+  margin: 0;
+  color: #fffaf2;
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: rgba(128, 64, 0, 0.85);
+  backdrop-filter: blur(4px);
+  position: sticky;
+  top: 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+
+.logo img {
+  width: 50%;
+  max-width: 200px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  justify-content: flex-end;
+  margin-right: 40px;
+}
+
+nav li a {
+  all: unset;
+  font-weight: bold;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav li a:hover {
+  background-color: #ff8c00;
+  color: white;
+}

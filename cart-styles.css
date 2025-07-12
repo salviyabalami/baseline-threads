@@ -1,0 +1,125 @@
+/*
+  Name: Salviya Balami
+  CS 132 Spring 2025
+  Date: June 14th, 2025
+
+  This is the cart-styles.css page for Baseline Threads. This handles all of the 
+  aesthetic styles for the cart view page that is displayed to the user.
+*/
+
+.cart-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cart-title {
+  text-align: center;
+  font-size: 2.2rem;
+  margin: 40px 0 20px;
+  color: white;
+}
+
+.cart-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.player-card {
+  width: 180px;
+  background: linear-gradient(to bottom, #1e1e1e, #2e2e2e);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  cursor: default;
+}
+
+.player-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+.player-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-text {
+  padding: 12px 10px;
+}
+
+.card-text h3 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.card-text p {
+  margin: 5px 0 0;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.remove-btn {
+  background-color: #ff4e4e;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.remove-btn:hover {
+  background-color: #e13d3d;
+}
+
+#purchase-all-btn,
+.checkout-btn {
+  display: block;
+  margin: 40px auto;
+  background-color: #00c853;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 14px 24px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#purchase-all-btn:hover,
+.checkout-btn:hover {
+  background-color: #00b34c;
+}
+
+.cart-summary {
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 12px;
+  background: #1b1b1b;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.cart-summary p {
+  font-size: 1.1rem;
+  margin: 8px 0;
+  color: #f0f0f0;
+}
