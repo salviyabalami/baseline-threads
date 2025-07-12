@@ -43,7 +43,7 @@
      * Fetches and displays all jerseys.
      */
     function loadAllJerseys() {
-        fetch(`${BASE_URL}/jerseys`)
+        fetch(`${BASE_URL}/jerseys?_=${Date.now()}`)
             .then(checkStatus)
             .then(res => res.json())
             .then(renderJerseyCards)
